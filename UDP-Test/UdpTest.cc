@@ -96,7 +96,7 @@ int main()
 	/* dhcp_start(echo_netif); */
 
 	/* now enable interrupts */
-		platform_enable_interrupts();
+	platform_enable_interrupts();
 
 	/* specify that the network if is up */
 	netif_set_up(echo_netif1);
